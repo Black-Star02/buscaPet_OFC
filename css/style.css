@@ -132,7 +132,7 @@ main{
     width: 50%;
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
-    background-image:  url(./img/gif-img.gif);
+    background-image:  url(/img/gif-img.gif);
     background-repeat: no-repeat;
 }
 .imagens:hover{
@@ -172,7 +172,7 @@ main{
     margin-left: 15px;
 }
 .conteudos:hover{
-    background:640px -60px /40% url(./img/pata_branca.png), #124d10a8;
+    background:640px -60px /40% url(/img/pata_branca.png), #124d10a8;
     background-repeat: no-repeat;
     /* color: white; */
 }
@@ -371,7 +371,7 @@ footer #botao:hover {
     }
     
     .conteudos:hover {
-        background: 640px -60px /40% url(./img/pata_branca.png), #124d10a8;
+        background: 640px -60px /40% url(/img/pata_branca.png), #124d10a8;
         background-repeat: no-repeat;
     }
     
