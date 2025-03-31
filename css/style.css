@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* header */
+header{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+#logo{
+    color:oklch(0.596 0.145 163.225);
+    width: 35%;
+    padding-right: 16%;
+    
+}
+#links1{
+    margin-left: 66%;
+    padding: 5px;
+}
+#links, #logar{
+    margin-left: 3%;
+    padding: 5px;
+    
+}
+#logar{
+    border: 2px solid oklch(0.596 0.145 163.225);
+    border-radius: 10px;
+}
+#link{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+#links1:hover, #links:hover,#logar:hover{
+    background-color: oklch(0.596 0.145 163.225);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.4s;
+}
+
+
+/* footer */
+footer{
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#rodape{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#rodapei {
+    margin-left: 10px;
+    color: oklch(0.596 0.145 163.225);
+    font-size: 30px;
+
+}
+#linkero{
+    margin-left: 15px;
+}

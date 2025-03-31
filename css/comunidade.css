@@ -1,0 +1,104 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+/* filtro */
+#todos{
+    width: 36%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filtro{
+    border: 2px solid oklch(0.596 0.145 163.225);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+#tifiltro{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#cores{
+    border-top: 2px dashed oklch(0.596 0.145 163.225);
+    border-bottom: 2px dashed oklch(0.596 0.145 163.225);
+    width: 390px;
+    height: 20%;
+    margin-bottom: 30px;
+}
+/* pesquisa */
+#pesquisa{
+    /* border: 2px solid #000; */
+    width: 50%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#pesquise{
+    border: 2px solid oklch(0.596 0.145 163.225);
+    border-radius: 10px;
+    width: 640px;
+    height: 50px;
+    margin-left: 23px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+/* comunidade */
+#comuni{
+    display: flexbox;
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    width: 100%;
+    /* height: 100%; */
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#comunidade{
+    border-top: 2px solid oklch(0.596 0.145 163.225);
+    border-bottom: 2px solid oklch(0.596 0.145 163.225);
+    width: 90%;
+    
+}
+#animais{
+    border: 2px solid oklch(0.596 0.145 163.225);
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+#discrição{
+    height: 120px;
+}
+#imganimais{
+    border-top: 2px solid oklch(0.596 0.145 163.225);
+    border-bottom: 2px solid oklch(0.596 0.145 163.225);
+    height: 330px;
+}
+#perfil{
+    width: 100%;
+    height: 40%;
+    border: 2px solid oklch(0.596 0.145 163.225);
+}
